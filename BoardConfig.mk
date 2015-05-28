@@ -63,7 +63,7 @@ BOARD_USES_LEGACY_MMAP := true
 BOARD_KERNEL_BASE := 0x00400000
 BOARD_KERNEL_PAGESIZE := 2048
 TARGET_KERNEL_SOURCE := kernel/samsung/msm7x30-common
-TARGET_KERNEL_CONFIG := ancora_defconfig
+TARGET_KERNEL_CONFIG := ancora_oc_uv_defconfig
 
 # Wifi related defines
 WIFI_BAND                        := 802_11_ABG
